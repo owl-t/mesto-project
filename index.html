@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./vendor/normalize.css" />
+    <link rel="stylesheet" href="./vendor/fonts/fonts.css" />
+    <link rel="stylesheet" href="./pages/index.css" />
+    <title>MESTO</title>
+  </head>
+  <body>
+    <div class="page">
+      <header class="header">
+        <img src="./images/logo.svg" alt="лого" class="logo" />
+        <div class="header__line"></div>
+      </header>
+      <main class="content">
+        <section class="profile">
+          <div class="profile__info">
+            <img
+              src="./images/avatar__img__1.png"
+              alt="аватар"
+              class="profile__avatar"
+            />
+            <div class="profile__block">
+              <h1 class="profile__name">
+                sasha <button class="profile__edit-button"></button>
+              </h1>
+              <p class="profile__description">average pixel perfect enjoyer</p>
+            </div>
+          </div>
+          <button class="profile__add-button"></button>
+        </section>
+        <section class="elements">
+          <div class="element">
+            <img
+              src="./images/gray.jpeg"
+              alt="картинка"
+              class="element__image"
+            />
+            <div class="element__description">
+              <h2 class="element__title">first</h2>
+              <button class="element__like element__like_active"></button>
+            </div>
+          </div>
+          <div class="element">
+            <img
+              src="./images/gray.jpeg"
+              alt="картинка"
+              class="element__image"
+            />
+            <div class="element__description">
+              <h2 class="element__title">second</h2>
+              <button class="element__like"></button>
+            </div>
+          </div>
+          <div class="element">
+            <img
+              src="./images/gray.jpeg"
+              alt="картинка"
+              class="element__image"
+            />
+            <div class="element__description">
+              <h2 class="element__title">third</h2>
+              <button class="element__like"></button>
+            </div>
+          </div>
+          <div class="element">
+            <img
+              src="./images/gray.jpeg"
+              alt="картинка"
+              class="element__image"
+            />
+            <div class="element__description">
+              <h2 class="element__title">fourth</h2>
+              <button class="element__like"></button>
+            </div>
+          </div>
+          <div class="element">
+            <img
+              src="./images/gray.jpeg"
+              alt="картинка"
+              class="element__image"
+            />
+            <div class="element__description">
+              <h2 class="element__title">fifth</h2>
+              <button class="element__like"></button>
+            </div>
+          </div>
+          <div class="element">
+            <img
+              src="./images/gray.jpeg"
+              alt="картинка"
+              class="element__image"
+            />
+            <div class="element__description">
+              <h2 class="element__title">sixth</h2>
+              <button class="element__like"></button>
+            </div>
+          </div>
+        </section>
+      </main>
+      <footer class="footer">
+        <p class="footer__text">© 2020 Mesto Russia</p>
+      </footer>
+      <div class="form">
+        <div class="form__content">
+          <button
+            aria-label="close"
+            type="button"
+            class="form__close-button"
+          ></button>
+          <form name="edit" action="#" class="form__edit">
+            <h2 class="form__title">Редактировать профиль</h2>
+            <input
+              class="form__input form__input_name"
+              type="text"
+              name="name"
+              placeholder="Имя пользователя"
+            />
+            <input
+              class="form__input form__input_description"
+              type="text"
+              name="about"
+              placeholder="О себе"
+            />
+            <button type="submit" class="form__submit-button">Сохранить</button>
+          </form>
+        </div>
+      </div>
+      <script src="script.js"></script>
+    </div>
+  </body>
+</html>

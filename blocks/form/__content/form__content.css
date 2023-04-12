@@ -1,0 +1,7 @@
+.form__content {
+  border-radius: 10px;
+  background-color: #ffffff;
+  position: relative;
+  box-sizing: border-box;
+  box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.15);
+}
