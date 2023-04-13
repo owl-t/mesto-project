@@ -1,0 +1,10 @@
+.profile__edit-block {
+  display: flex;
+  flex-direction: row;
+}
+
+@media (max-width: 600px) {
+  .profile__edit-block {
+    justify-content: center;
+  }
+}

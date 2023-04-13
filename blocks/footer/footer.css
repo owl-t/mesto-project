@@ -3,7 +3,7 @@
   margin: 0 auto;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 600px) {
   .footer {
     max-width: 282px;
   }
