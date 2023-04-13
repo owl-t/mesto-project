@@ -18,7 +18,7 @@
   opacity: 0.6;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 650px) {
   .profile__edit-button {
     background-image: url(../../../images/320edit.svg);
     width: 18px;

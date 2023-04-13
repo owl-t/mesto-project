@@ -17,7 +17,7 @@
   transition: 0.5s;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 650px) {
   .popup__close-button {
     background-image: url(../../../images/320close.svg);
     width: 20px;

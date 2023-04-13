@@ -9,7 +9,7 @@
   color: #545454;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 650px) {
   .footer__text {
     padding-top: 48px;
     padding-bottom: 36px;
